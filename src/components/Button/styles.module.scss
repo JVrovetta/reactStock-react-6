@@ -1,0 +1,31 @@
+.wrapper {
+  font-size: 15px;
+  font-weight: 600;
+  color: $buttom-text-color;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: .8;
+  transition: .3s;
+
+  &.view {
+    background-color: $buttom-view-background-color;
+  }
+
+  &.save {
+    background-color: $buttom-save-background-color;
+  }
+
+  &.update {
+    background-color: $buttom-update-background-color;
+  }
+
+  &.delete {
+    background-color: $buttom-delete-background-color;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}

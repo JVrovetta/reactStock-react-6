@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  border-bottom: 1px solid $nav-border-color;
+
+  a {
+    text-decoration: none;
+    padding: 10px 15px;
+
+    &.active {
+      border-bottom: 2px solid $nav-active-border-color;
+    }
+  }
+}
+
+.section {
+  padding: 25px 0;
+}

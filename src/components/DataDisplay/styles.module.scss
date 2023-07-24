@@ -1,0 +1,27 @@
+.wrapper {
+  padding: 15px 25px;
+  background-color: $dataDisplay-background-color;
+  box-shadow: 0 0 10px $shadow-color;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &.title {
+    height: 120px;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+    h4 {
+      line-height: 20px;
+    }
+
+    div {
+      font-size: 35px;
+      height: calc(100% - 20px);
+    }
+  }
+}

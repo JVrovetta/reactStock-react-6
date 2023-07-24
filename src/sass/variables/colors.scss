@@ -1,0 +1,40 @@
+// ---------------------- THEME ----------------------
+$black: #141414;
+$white: #FEFEFE;
+$gray: #979797;
+$blue: #5BA7FD;
+$red: #FF5258;
+
+$primary-color: #1c1a1d;
+$background-color: #2c2c2d;
+$text-color: $white;
+// ---------------------------------------------------
+
+// General:
+$background-hover-color: rgba($white, 0.025);
+$shadow-color: rgba($black, 0.320);
+
+// Main:
+$page-text-color: $text-color;
+$page-backgroud-color: $background-color;
+
+// Nav:
+$nav-active-border-color: $white;
+$nav-border-color: $gray;
+
+// Table:
+$thead-background-color: $primary-color;
+
+// Form:
+$input-background-color: $primary-color;
+
+// DataDisplay: 
+$dataDisplay-background-color: $primary-color;
+
+// Buttom:
+$buttom-view-background-color: $white;
+$buttom-save-background-color: $blue;
+$buttom-update-background-color: $blue;
+$buttom-delete-background-color: $red;
+
+$buttom-text-color: $black;

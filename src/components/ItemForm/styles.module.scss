@@ -1,0 +1,58 @@
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    background-color: $input-background-color;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px $shadow-color;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  select {
+    outline: 0px;
+  }
+
+  .row1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-bottom: 15px;
+  }
+
+  .row2 {
+    margin-bottom: 10px;
+  }
+
+  button {
+    padding: 12px 20px;
+  }
+}
+
+@media (max-width: 570px) {
+  .wrapper {
+    width: 100%;
+
+    .row1 {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    button {
+      width: 100%;
+    }
+  }
+}

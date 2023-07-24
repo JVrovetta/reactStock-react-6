@@ -1,0 +1,28 @@
+.wrapper {
+  width: 100%;
+  height: fit-content;
+  text-align: left;
+  border-collapse: collapse;
+
+  thead {
+    height: 50px;
+    background-color: $thead-background-color;
+    box-shadow: 0 0 10px $shadow-color;
+  }
+
+  tbody {
+    tr {
+      &:hover {
+        background-color: $background-hover-color;
+      }
+    }
+  }
+
+  th {
+    padding: 10px 20px;
+  }
+
+  td {
+    padding: 15px 20px;
+  }
+}
