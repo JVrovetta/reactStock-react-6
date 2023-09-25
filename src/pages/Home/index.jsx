@@ -8,7 +8,6 @@ import styles from "./styles.module.scss"
 
 function Home() {
   const { items } = useContext(ItemsContext)
-  console.log(items);
   let inventory = 0
   const recent = []
   const runningOut = []
